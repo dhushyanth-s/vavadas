@@ -44,7 +44,7 @@ const cardData: CardData[] = [
   {
     id: 'aravind',
     category: 'Lmao ded',
-    title: 'Aravind, musician/fapper',
+    title: 'Aravind, musician/beatboxer',
     description: 'Well, if u are Niru, this website is a success',
     backgroundColor: '#238476',
     pointOfInterest: 50,
