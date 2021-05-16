@@ -30,7 +30,9 @@ export const Card = memo(
     category,
     history,
     pointOfInterest,
-    backgroundColor
+    backgroundColor,
+    description,
+    title_theme
   }: Props) => {
     const y = useMotionValue(0);
     const zIndex = useMotionValue(isSelected ? 2 : 0);
@@ -46,7 +48,7 @@ export const Card = memo(
       y.get() > dismissDistance && history.push("/");
     }
 
-    function checkZIndex(latest) {
+    function checkZIndex(latest: { [key: string]: string | number }) {
       if (isSelected) {
         zIndex.set(2);
       } else if (!isSelected && latest.scaleX < 1.01) {
@@ -84,8 +86,8 @@ export const Card = memo(
               pointOfInterest={pointOfInterest}
               backgroundColor={backgroundColor}
             />
-            <Title title={title} category={category} isSelected={isSelected} />
-            <ContentPlaceholder />
+            <Title title={title} category={category} isSelected={isSelected} theme={title_theme} />
+            <ContentPlaceholder desc={description} />
           </motion.div>
         </div>
         {!isSelected && <Link to={id} className={`card-open-link`} />}
@@ -95,7 +97,7 @@ export const Card = memo(
   (prev, next) => prev.isSelected === next.isSelected
 );
 
-const Overlay = ({ isSelected }) => (
+const Overlay = ({ isSelected }: { isSelected: boolean }) => (
   <motion.div
     initial={false}
     animate={{ opacity: isSelected ? 1 : 0 }}

@@ -4,4 +4,6 @@ export interface CardData {
   title: string;
   pointOfInterest: number;
   backgroundColor: string;
+  description: string;
+  title_theme: 'dark' | 'light'
 }

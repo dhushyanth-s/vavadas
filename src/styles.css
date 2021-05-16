@@ -6,7 +6,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: black;
+  background: #0b090a;
   overflow-y: scroll;
   --secondary: rgb(161, 161, 161);
   --divider: #343434;
@@ -163,12 +163,10 @@ li {
 }
 
 h2 {
-  color: #fff;
   margin: 8px 0;
 }
 
 .category {
-  color: #fff;
   font-size: 14px;
   text-transform: uppercase;
 }
@@ -176,7 +174,7 @@ h2 {
 .overlay {
   z-index: 1;
   position: fixed;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(11, 9, 10, 0.8);
   will-change: opacity;
   top: 0;
   bottom: 0;

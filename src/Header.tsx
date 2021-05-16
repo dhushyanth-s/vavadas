@@ -3,10 +3,10 @@ import { Avatar } from "react-lorem-ipsum";
 
 export const Header = () => (
   <header>
-    <span className="date">Tuesday, August 13th</span>
-    <h1>Today</h1>
+    <span className="date">Well...</span>
+    <h1>This is VAVADAS</h1>
     <div className="avatar">
-      <Avatar />
+      <img src="images/me.jpg" alt="" />
     </div>
   </header>
 );

@@ -7,9 +7,13 @@ export const Image = ({
   isSelected,
   pointOfInterest = 0,
   backgroundColor
+} : {
+  id: string,
+  isSelected: boolean,
+  pointOfInterest: number,
+  backgroundColor: string
 }) => {
   const inverted = useInvertedScale();
-
   return (
     <motion.div
       className="card-image-container"
@@ -17,7 +21,7 @@ export const Image = ({
     >
       <motion.img
         className="card-image"
-        src={`images/${id}.jpg`}
+        src={`images/${id}.jpeg`}
         alt=""
         initial={false}
         animate={
