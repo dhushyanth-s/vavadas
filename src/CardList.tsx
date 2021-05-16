@@ -40,5 +40,14 @@ const cardData: CardData[] = [
     backgroundColor: "#fe5439f",
     pointOfInterest: 400,
     title_theme: 'dark'
+  },
+  {
+    id: 'aravind',
+    category: 'Lmao ded',
+    title: 'Aravind, musician/fapper',
+    description: 'Well, if u are Niru, this website is a success',
+    backgroundColor: '#238476',
+    pointOfInterest: 50,
+    title_theme: 'dark'
   }
 ];
