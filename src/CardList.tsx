@@ -49,5 +49,14 @@ const cardData: CardData[] = [
     backgroundColor: '#238476',
     pointOfInterest: 50,
     title_theme: 'dark'
+  },
+  {
+    id: 'ananthu',
+    category: 'TWSS',
+    title: 'Ananthajith, Walking Zombie/Data Scientist',
+    description: 'You still owe those blender models you know...',
+    backgroundColor: '#000',
+    pointOfInterest: 0,
+    title_theme: 'light'
   }
 ];

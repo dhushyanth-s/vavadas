@@ -23,6 +23,7 @@ body {
 #root {
   display: flex;
   justify-content: center;
+  background-color: #0b090a;
 }
 
 .screen {
