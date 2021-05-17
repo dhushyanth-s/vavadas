@@ -45,7 +45,7 @@ const cardData: CardData[] = [
     id: 'aravind',
     category: 'Lmao ded',
     title: 'Aravind, musician/beatboxer',
-    description: 'Nothing, cause its offending, apparently',
+    description: 'Dhushyanth is holding me hostage, and forcing me to write this... SOS',
     backgroundColor: '#238476',
     pointOfInterest: 50,
     title_theme: 'dark'
@@ -53,7 +53,7 @@ const cardData: CardData[] = [
   {
     id: 'ananthu',
     category: 'TWSS',
-    title: 'Ananthajith, Walking Zombie/Data Scientist',
+    title: 'Ananthajit, Walking Zombie/Data Scientist',
     description: 'You still owe those blender models you know...',
     backgroundColor: '#000',
     pointOfInterest: 0,
